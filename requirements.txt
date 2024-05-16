@@ -5,3 +5,4 @@ PyOpenGL
 PyOpenGL-accelerate
 opencv-python-headless
 opencv_contrib_python
+streamlit_webrtc
