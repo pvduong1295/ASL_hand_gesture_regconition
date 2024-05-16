@@ -1,0 +1,8 @@
+
+
+nc: 26
+names: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+
+test: /Users/HLC/Desktop/Workspace/human_activity_detection/American-Sign-Language-Letters-1/test/images
+train: /Users/HLC/Desktop/Workspace/human_activity_detection/American-Sign-Language-Letters-1/train/images
+val: /Users/HLC/Desktop/Workspace/human_activity_detection/American-Sign-Language-Letters-1/valid/images
