@@ -63,19 +63,7 @@ def _display_detected_frames(conf, model, st_frame, image, is_display_tracking=N
                    )
 
 def play_webcam(conf, model):
-    """
-    Plays a webcam stream. Detects Objects in real-time using the YOLOv8 object detection model.
-
-    Parameters:
-        conf: Confidence of YOLOv8 model.
-        model: An instance of the `YOLOv8` class containing the YOLOv8 model.
-
-    Returns:
-        None
-
-    Raises:
-        None
-    """
+    
     source_webcam = settings.WEBCAM_PATH
     is_display_tracker, tracker = display_tracker_options()
     if st.sidebar.button('Detect webcam signs'):
@@ -98,20 +86,7 @@ def play_webcam(conf, model):
                     break
         except Exception as e:
             st.sidebar.error("Error loading video: " + str(e))
-"""
-    source_webcam = settings.WEBCAM_PATH
-    
-     
-    if st.sidebar.button('Detect Signs'):
-        try:
-            
-            model.predict(source_webcam,show=True,conf=conf)
-            
 
-        except Exception as e:
-            st.sidebar.error("Error loading video: " + str(e))
-
-"""
 def play_stored_video(conf, model):
     """
     Plays a stored video file. Tracks and detects objects in real-time using the YOLOv8 object detection model.
